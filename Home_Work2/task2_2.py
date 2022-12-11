@@ -5,11 +5,11 @@
 Для заполнения списка элементов необходимо использовать функцию input().
 """
 a = list(input("Введите элементы массива  ").split())
-print(list(a))
+print(a)
 i = 0
 while i < len(a) - 1:
     mem = a[i]
     a[i] = a[i + 1]
     a[i + 1] = mem
     i += 2
-print(list(a))
+print(a)
